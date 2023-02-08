@@ -1,0 +1,9 @@
+
+
+X_test = Dependent variables of test Dataset 
+
+X_train = Dependent variables from train Datset from where SalePrice (y) was obtained
+
+y = SalePrice of observations from train dataset. (target variable)
+
+y_log = Logarithmic transformation of target variable to obtain normal distribution.
