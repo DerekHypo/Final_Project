@@ -1,0 +1,10 @@
+
+
+X_test = Dependent variables of test dataset.
+
+X_train = Dependent variables fo train dataset. 
+
+y = SalePrice of train dataset. 
+
+y_log = Logarithmic transformation of SalePrice to obtain normal distribution and avoid outliers. 
+
