@@ -5,7 +5,7 @@ Module 21- First Segment Project Deliverable
 ## Team Name:
 
 Eyes to Analyze 
-* Derek
+* Derek Hypolite
 * Felipe Lastra 
 * Aderonke Adegbite
 * Clemance Khalaf
