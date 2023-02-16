@@ -36,3 +36,9 @@ https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/
 * data_description.txt - full description of each column, originally prepared by Dean De Cock but lightly edited to match the column names used here
 * sample_submission.csv - a benchmark submission from a linear regression on year and month of sale, lot square footage, and number of bedrooms
 
+## Project Status
+
+Our team worked with large datasets. Each dataset contained about 80+ columns of variables. We worked first to import, sort and clean the data. Once we removed missing variables, we created a new dataset to begin the machine learning process. The team used Random Forest to answer our project question. Team members created two machine learning trials in case the first one was unsuccessful. 
+
+## Results 
+
