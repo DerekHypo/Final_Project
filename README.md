@@ -46,10 +46,6 @@ Our team worked with large datasets. Each dataset contained about 80+ columns of
 
 ![Image of Sales Price Distribution](images/distribution.png)
 
-### Linearity of Relationship
-
-![Image of Sales Price Distribution](images/linearity.png)
-
 ### Spearman Correlation
 
 ![Image of Sales Price Distribution](images/spearman_correlation.png)
