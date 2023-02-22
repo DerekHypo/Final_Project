@@ -54,6 +54,8 @@ Our team worked with large datasets. Each dataset contained about 80+ columns of
 
 ![Image of Sales Price Distribution](images/spearman_correlation.png)
 
+![Image of Sales Price Distribution](images/graphs.png)
+
 ## Overall Summary
 
 
