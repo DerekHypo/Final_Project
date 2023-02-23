@@ -8,7 +8,7 @@ Eyes to Analyze
 * Derek Hypolite
 * Felipe Lastra 
 * Aderonke Adegbite
-* Clemonce Khoury
+* Clemance Khalaf
 
 
 ## Purpose
