@@ -33,58 +33,52 @@ From the previous plots, we can observe that the distribution of target variable
 
 In order to determine if the target variable can be transformed to obtain a normal distribution that may facilitate the analaysis, a logarithmic transformation was performed, obtaining the following results: 
 
-![Image of Sales Price Distribution](images/eda/saleprice2.png)
+![Image of Log Sales Price Distribution](images/eda/saleprice2.png)
 
 The new variable shows skewness of 0.12 and a kurtosis of 0.80, thus normal distribution could be assumed. 
 
 
+### House features 
+
+As it was mentioned earlier, the provided datasets have both categorical and numerical features. A correlation analysisi will be performed on numerical variables and an analysis of variance will be performed on the categorical ones. 
+
+#### Correlation Analysis
+
+![Image of Spearman Correlation](images/eda/saleprice2.png)
+
+The chart above shows that the numerical features with the highest spearman correlation coefficient are the following: 
+
+ *'YearBuilt'
+ *'YearRemodAdd'
+ *'TotalBsmtSF'
+ *'1stFlrSF'
+ *'GrLivArea'
+ *'FullBath'
+ *'TotRmsAbvGrd'
+ *'Fireplaces'
+ *'GarageYrBlt'
+ *'GarageCars'
+ *'GarageArea'
+ *'SalePrice'
+ *'Log_SalePrice'
 
 
-## Summary
+#### Analysis of Variance
 
-For our final project we decided to take a dataset from a Kaggle.com competition on House Prices. The purpose of the competition is to predict the final price of each home. We chose this dataset and competition due to our shared interest in finances and housing prices. The housing market is always a controversial topic with predictions being made everyday of whether housing prices will crash like it did in 2008. Currently, high mortgage prices haunt our home owners which will slow down the housing market. The goal of our project is to predict the housing prices for Ames, Iowa. We seek to answer the following questions: 
+![Image of ANOVA ](images/eda/anova.png)
 
-* What variables best describe the target variable (sale price)?
+The above table displays the categorical variables that observed a p-value of above 0.05, thus being statistically significant. 
 
-Test used: 
+## Model Selection
 
-* We are thinking of using random forest and gradiant boosting to answer the above question. 
+Based on the analyzded data, it was determined that the machine learning models that would more accurately predict the Sale Price for the provided data would be:
 
-## Tools Used
+*A) Random Forest Regression (RFR)
+*B) Gradient Boosting (GB)
 
-We will be using: 
- * Jupyter Notebook
- * Python
+Because our data was not nornally distributed, it was decided that a non-parametric model such as RFR would result optimal. GB as was also selected to to its ability to minimize data loss. 
 
-## Dataset/Kaggle Website:
-
-https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview
-
-## Description of the Data
-* train.csv - the training set
-* test.csv - the test set
-* data_description.txt - full description of each column, originally prepared by Dean De Cock but lightly edited to match the column names used here
-* sample_submission.csv - a benchmark submission from a linear regression on year and month of sale, lot square footage, and number of bedrooms
-
-## Project Status
-
-Our team worked with large datasets. Each dataset contained about 80+ columns of variables. We worked first to import, sort and clean the data. Once we removed missing variables, we created a new dataset to begin the machine learning process. The team used Random Forest to answer our project question. Team members created two machine learning trials in case the first one was unsuccessful. 
+ 
 
 ## Results 
-
-### Sales Price Distribution
-
-![Image of Sales Price Distribution](images/distribution.png)
-
-### Spearman Correlation
-
-![Image of Sales Price Distribution](images/spearman_correlation.png)
-
-### Numerical Features Selected versus SalesPrice
-
-![Image of Sales Price Distribution](images/Graphs.png)
-
-## Overall Summary
-
-
 
