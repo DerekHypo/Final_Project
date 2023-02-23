@@ -44,7 +44,7 @@ As it was mentioned earlier, the provided datasets have both categorical and num
 
 #### Correlation Analysis
 
-![Image of Spearman Correlation](images/eda/saleprice2.png)
+![Image of Spearman Correlation](images/eda/spearman.png)
 
 The chart above shows that the numerical features with the highest spearman correlation coefficient are the following: 
 
