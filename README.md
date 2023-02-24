@@ -89,4 +89,3 @@ Built in garage
 Greater living area included
 Pool
 Alley Feature
-![image](https://user-images.githubusercontent.com/67697826/221059813-33e47e1e-c595-49f3-b0d3-651668211d1f.png)
