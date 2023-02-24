@@ -82,3 +82,4 @@ Because our data was not nornally distributed, it was decided that a non-paramet
 
 ## Results 
 
+![image](https://user-images.githubusercontent.com/67697826/221059745-3b9fd1dc-b8cf-40d3-9cb5-1d0907a97841.png)
