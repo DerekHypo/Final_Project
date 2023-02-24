@@ -83,3 +83,10 @@ Because our data was not nornally distributed, it was decided that a non-paramet
 ## Results 
 
 ![image](https://user-images.githubusercontent.com/67697826/221059745-3b9fd1dc-b8cf-40d3-9cb5-1d0907a97841.png)
+
+Many features have an impact on the pricing of the home such as:
+Built in garage
+Greater living area included
+Pool
+Alley Feature
+![image](https://user-images.githubusercontent.com/67697826/221059813-33e47e1e-c595-49f3-b0d3-651668211d1f.png)
